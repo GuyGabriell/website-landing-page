@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JamBaze</title>
+    <link rel="stylesheet" href="web.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.cdnfonts.com/css/archivo" rel="stylesheet" />
+    <link
+      href="https://fonts.cdnfonts.com/css/space-grotesk"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <!-- Logo -->
+      <div class="logo">
+        <img src="logo-icon/logo.svg" alt="JamBaze" />
+        JamBaze
+      </div>
+
+      <!-- Menu items -->
+      <div class="menu">
+        <a href="#" class="dropdown">Music</a>
+        <a href="#">Video</a>
+        <a href="#">Entertainment</a>
+        <a href="#">News</a>
+        <a href="#">Artists</a>
+        <a href="#" class="dropdown">More</a>
+      </div>
+
+      <!-- Search icon -->
+      <div class="search-icon">
+        <img src="search-icon/icon.svg" alt="" />
+      </div>
+
+      <!-- Subscribe button with dropdown indicator -->
+      <button class="subscribe-button">
+        Subscribe
+        <span class="dropdown-indicator">▼</span>
+      </button>
+    </div>
+
+    <section class="container">
+      <main class="container">
+        <!-- Hot Stories Section -->
+        <h1>Hot stories</h1>
+
+        <div class="content">
+          <!-- Left section: Main article -->
+          <div class="main-article">
+            <img src="images/img.png" alt="Main Article Image" />
+            <div class="overlay">
+              <div class="tag">Top Story</div>
+              <h2>
+                Kanye West suspected of attacking man who allegedly sexually
+                assaulted his wife
+              </h2>
+            </div>
+          </div>
+
+          <!-- Right section: List of smaller articles -->
+          <div class="side-articles">
+            <!-- Example of a side article -->
+            <div class="side-article">
+              <img src="channels-pics/channel1.png" alt="Side Article Image" />
+              <div class="info">
+                <h3>Prosper Germoh – Your Dominion (GOSPEL ALBUM)</h3>
+                <div class="time">6 mins ago</div>
+                <div class="category">Entertainment</div>
+              </div>
+            </div>
+
+            <!-- Additional side articles -->
+            <div class="side-article">
+              <img src="channels-pics/channel2.png" alt="Side Article Image" />
+              <div class="info">
+                <h3>Prosper Germoh – Your Dominion (GOSPEL ALBUM)</h3>
+                <div class="time">6 mins ago</div>
+                <div class="category">Entertainment</div>
+              </div>
+            </div>
+
+            <div class="side-article">
+              <img src="channels-pics/channel3.png" alt="Side Article Image" />
+              <div class="info">
+                <h3>Prosper Germoh – Your Dominion (GOSPEL ALBUM)</h3>
+                <div class="time">6 mins ago</div>
+                <div class="category">Entertainment</div>
+              </div>
+            </div>
+
+            <div class="side-article">
+              <img src="channels-pics/channel4.png" alt="Side Article Image" />
+              <div class="info">
+                <h3>Prosper Germoh – Your Dominion (GOSPEL ALBUM)</h3>
+                <div class="time">6 mins ago</div>
+                <div class="category">Entertainment</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <section class="container">
+        <!-- Trending Music Section -->
+        <div class="trending-music">
+          <h2>Trending Music</h2>
+          <div class="music-grid">
+            <!-- Music Item 1 -->
+            <div class="music-item">
+              <img src="albums/album1.png" alt="Graduation Album Cover" />
+              <div class="music-info">
+                <h3>Graduation</h3>
+                <p>Hip Hop</p>
+                <p class="artist">Kanye West</p>
+              </div>
+            </div>
+
+            <!-- Music Item 2 -->
+            <div class="music-item">
+              <img src="albums/album2.png" alt="IGOR Album Cover" />
+              <div class="music-info">
+                <h3>IGOR</h3>
+                <p>Hip Hop</p>
+                <p class="artist">Tyler the Creator</p>
+              </div>
+            </div>
+
+            <!-- Music Item 3 -->
+            <div class="music-item">
+              <img src="albums/album3.png" alt="Deal with it Album Cover" />
+              <div class="music-info">
+                <h3>Deal with it</h3>
+                <p>Afrobeats</p>
+                <p class="artist">Phyno</p>
+              </div>
+            </div>
+
+            <!-- Music Item 4 -->
+            <div class="music-item">
+              <img src="albums/album4.png" alt="Outside Album Cover" />
+              <div class="music-info">
+                <h3>Outside</h3>
+                <p>Afrobeats</p>
+                <p class="artist">Burna Boy</p>
+              </div>
+            </div>
+
+            <!-- Music Item 5 -->
+            <div class="music-item">
+              <img src="albums/album5.png" alt="Timeless Album Cover" />
+              <div class="music-info">
+                <h3>Timeless</h3>
+                <p>Afrobeats</p>
+                <p class="artist">Davido</p>
+              </div>
+            </div>
+
+            <!-- Music Item 6 -->
+            <div class="music-item">
+              <img src="albums/album6.png" alt="DS4EVR Album Cover" />
+              <div class="music-info">
+                <h3>DS4EVR</h3>
+                <p>Hip Hop</p>
+                <p class="artist">Gunna</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <div class="playlist">
+      <!-- Song item 1 -->
+      <div class="song-item">
+        <img
+          src="tracklists/track-1.png"
+          alt="Album Cover"
+          class="album-cover"
+        />
+        <div class="song-details">
+          <p class="song-title">Graduation</p>
+          <p class="song-genre">Hip Hop</p>
+          <p class="song-artist">Kanye West</p>
+        </div>
+        <div class="song-time">03:59</div>
+        <button class="like-btn">❤️</button>
+        <button class="play-btn">Play</button>
+      </div>
+
+      <!-- Repeat song items here-->
+
+      <div class="song-item">
+        <img
+          src="tracklists/track-2.png"
+          alt="Album Cover"
+          class="album-cover"
+        />
+        <div class="song-details">
+          <p class="song-title">Graduation</p>
+          <p class="song-genre">Hip Hop</p>
+          <p class="song-artist">Kanye West</p>
+        </div>
+        <div class="song-time">03:59</div>
+        <button class="like-btn">❤️</button>
+        <button class="play-btn">Play</button>
+      </div>
+
+      <div class="song-item">
+        <img
+          src="tracklists/track-3.png"
+          alt="Album Cover"
+          class="album-cover"
+        />
+        <div class="song-details">
+          <p class="song-title">Graduation</p>
+          <p class="song-genre">Hip Hop</p>
+          <p class="song-artist">Kanye West</p>
+        </div>
+        <div class="song-time">03:59</div>
+        <button class="like-btn">❤️</button>
+        <button class="play-btn">Play</button>
+      </div>
+
+      <div class="song-item">
+        <img
+          src="tracklists/track-4.png"
+          alt="Album Cover"
+          class="album-cover"
+        />
+        <div class="song-details">
+          <p class="song-title">Graduation</p>
+          <p class="song-genre">Hip Hop</p>
+          <p class="song-artist">Kanye West</p>
+        </div>
+        <div class="song-time">03:59</div>
+        <button class="like-btn">❤️</button>
+        <button class="play-btn">Play</button>
+      </div>
+
+      <div class="song-item">
+        <img
+          src="tracklists/track-5.png"
+          alt="Album Cover"
+          class="album-cover"
+        />
+        <div class="song-details">
+          <p class="song-title">Graduation</p>
+          <p class="song-genre">Hip Hop</p>
+          <p class="song-artist">Kanye West</p>
+        </div>
+        <div class="song-time">03:59</div>
+        <button class="like-btn">❤️</button>
+        <button class="play-btn">Play</button>
+      </div>
+
+      <div class="song-item">
+        <img
+          src="tracklists/track-6.png"
+          alt="Album Cover"
+          class="album-cover"
+        />
+        <div class="song-details">
+          <p class="song-title">Graduation</p>
+          <p class="song-genre">Hip Hop</p>
+          <p class="song-artist">Kanye West</p>
+        </div>
+        <div class="song-time">03:59</div>
+        <button class="like-btn">❤️</button>
+        <button class="play-btn">Play</button>
+      </div>
+
+      <div class="song-item">
+        <img
+          src="tracklists/track-7.png"
+          alt="Album Cover"
+          class="album-cover"
+        />
+        <div class="song-details">
+          <p class="song-title">Graduation</p>
+          <p class="song-genre">Hip Hop</p>
+          <p class="song-artist">Kanye West</p>
+        </div>
+        <div class="song-time">03:59</div>
+        <button class="like-btn">❤️</button>
+        <button class="play-btn">Play</button>
+      </div>
+
+      <div class="song-item">
+        <img
+          src="tracklists/track-8.png"
+          alt="Album Cover"
+          class="album-cover"
+        />
+        <div class="song-details">
+          <p class="song-title">Graduation</p>
+          <p class="song-genre">Hip Hop</p>
+          <p class="song-artist">Kanye West</p>
+        </div>
+        <div class="song-time">03:59</div>
+        <button class="like-btn">❤️</button>
+        <button class="play-btn">Play</button>
+      </div>
+
+      <div class="song-item">
+        <img
+          src="tracklists/track-9.png"
+          alt="Album Cover"
+          class="album-cover"
+        />
+        <div class="song-details">
+          <p class="song-title">Graduation</p>
+          <p class="song-genre">Hip Hop</p>
+          <p class="song-artist">Kanye West</p>
+        </div>
+        <div class="song-time">03:59</div>
+        <button class="like-btn">❤️</button>
+        <button class="play-btn">Play</button>
+      </div>
+
+      <div class="song-item">
+        <img
+          src="tracklists/track-10.png"
+          alt="Album Cover"
+          class="album-cover"
+        />
+        <div class="song-details">
+          <p class="song-title">Graduation</p>
+          <p class="song-genre">Hip Hop</p>
+          <p class="song-artist">Kanye West</p>
+        </div>
+        <div class="song-time">03:59</div>
+        <button class="like-btn">❤️</button>
+        <button class="play-btn">Play</button>
+      </div>
+
+      <!-- Add more song items as necessary -->
+    </div>
+
+    <div class="banner">
+      <img src="banner/banner.png" alt="" width="100%" />
+    </div>
+
+    
+
+<!--Latest posts section-->
+<section class="container">
+      <section class="container">
+        
+            <div class="side-article">
+              <img src="channels-pics/channel3.png" alt="Side Article Image" />
+              <div class="info">
+                <h3>Prosper Germoh – Your Dominion (GOSPEL ALBUM)</h3>
+                <div class="time">6 mins ago</div>
+                <div class="category">Entertainment</div>
+              </div>
+            </div>
+
+            <div class="side-article">
+              <img src="channels-pics/channel3.png" alt="Side Article Image" />
+              <div class="info">
+                <h3>Prosper Germoh – Your Dominion (GOSPEL ALBUM)</h3>
+                <div class="time">6 mins ago</div>
+                <div class="category">Entertainment</div>
+              </div>
+            </div>
+            
+            <div class="side-article">
+              <img src="channels-pics/channel3.png" alt="Side Article Image" />
+              <div class="info">
+                <h3>Prosper Germoh – Your Dominion (GOSPEL ALBUM)</h3>
+                <div class="time">6 mins ago</div>
+                <div class="category">Entertainment</div>
+              </div>
+            </div>
+
+            <div class="side-article">
+              <img src="channels-pics/channel3.png" alt="Side Article Image" />
+              <div class="info">
+                <h3>Prosper Germoh – Your Dominion (GOSPEL ALBUM)</h3>
+                <div class="time">6 mins ago</div>
+                <div class="category">Entertainment</div>
+              </div>
+            </div>
+
+             <div class="side-article">
+              <img src="channels-pics/channel3.png" alt="Side Article Image" />
+              <div class="info">
+                <h3>Prosper Germoh – Your Dominion (GOSPEL ALBUM)</h3>
+                <div class="time">6 mins ago</div>
+                <div class="category">Entertainment</div>
+              </div>
+            </div>
+
+             <div class="side-article"></div>
+              <img src="channels-pics/channel3.png" alt="Side Article Image" />
+              <div class="info">
+                <h3>Prosper Germoh – Your Dominion (GOSPEL ALBUM)</h3>
+                <div class="time">6 mins ago</div>
+                <div class="category">Entertainment</div>
+              </div>
+            </div>
+            
+
+            
+      </section>
+    </section>
+
+
+
+
+
+    <!--top artiste section-->
+    <section class="container">
+      <section class="container">
+        <!-- Trending Music Section -->
+        <div class="trending-music">
+          <div class="header">
+            <h2>Top Artistes</h2>
+            <a href="#">See all artistes</a>
+          </div>
+          <div class="music-grid">
+            <!-- Music Item 1 -->
+            <div class="music-item">
+              <img
+                src="artist-pics/arttist-1.png"
+                alt="Graduation Album Cover"
+              />
+              <div class="music-info">
+                <p class="artist"><a href="#">Kanye West</a></p>
+              </div>
+            </div>
+
+            <!-- Music Item 2 -->
+            <div class="music-item">
+              <img src="artist-pics/artist-2.png" alt="IGOR Album Cover" />
+              <div class="music-info">
+                <p class="artist"><a href="#">Tyler the Creator</a></p>
+              </div>
+            </div>
+
+            <!-- Music Item 3 -->
+            <div class="music-item">
+              <img
+                src="artist-pics/artist-3.png"
+                alt="Deal with it Album Cover"
+              />
+              <div class="music-info">
+                <p class="artist"><a href="#">Phyno</a></p>
+              </div>
+            </div>
+
+            <!-- Music Item 4 -->
+            <div class="music-item">
+              <img src="artist-pics/artist-4.png" alt="Outside Album Cover" />
+              <div class="music-info">
+                <p class="artist"><a href="#">Burna Boy</a></p>
+              </div>
+            </div>
+
+            <!-- Music Item 5 -->
+            <div class="music-item">
+              <img src="artist-pics/artist-5.png" alt="Timeless Album Cover" />
+              <div class="music-info">
+                <p class="artist"><a href="#">Davido</a></p>
+              </div>
+            </div>
+
+            <!-- Music Item 6 -->
+            <div class="music-item">
+              <img src="artist-pics/artist-6.png" alt="DS4EVR Album Cover" />
+              <div class="music-info">
+                <p class="artist"><a href="#">Gunna</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Upload Button -->
+        <div class="upload-button">
+          <button class="btn btn-primary" id="uploadBtn">
+            <i class="fa-solid fa-upload"></i>Upload your song
+          </button>
+          <input
+            type="file"
+            id="uploadFile"
+            name="uploadFile"
+            accept="audio/*"
+            hidden
+          />
+        </div>
+      </section>
+    </section>
+
+    <!--playlist section-->
+    <section class="container">
+      <section class="container">
+        <!-- Trending Music Section -->
+        <div class="trending-music">
+          <div class="header">
+            <h2>playlists</h2>
+            <!-- <a href="#">See all artistes</a> -->
+          </div>
+          <div class="music-grid">
+            <!-- Music Item 1 -->
+            <div class="music-item">
+              <img
+                src="playlists/playlist-1.png"
+                alt="Graduation Album Cover"
+              />
+              <div class="music-info">
+                <h3>Top 100</h3>
+                <p><a href="#">100 songs</a></p>
+                <p class="artist">Jambaze</p>
+              </div>
+            </div>
+
+            <!-- Music Item 2 -->
+            <div class="music-item">
+              <img src="playlists/playlist-2.png" alt="IGOR Album Cover" />
+              <div class="music-info">
+                <h3>Top Artists</h3>
+                <p><a href="#">100 Artists</a></p>
+                <p class="artist">Jambaze</p>
+              </div>
+            </div>
+
+            <!-- Music Item 3 -->
+            <div class="music-item">
+              <img
+                src="playlists/playlist-3.png"
+                alt="Deal with it Album Cover"
+              />
+              <div class="music-info">
+                <h3>Top Albums</h3>
+                <p><a href="#">100 Albums</a></p>
+                <p class="artist">Jambaze</p>
+              </div>
+            </div>
+
+            <!-- Music Item 4 -->
+            <div class="music-item">
+              <img src="playlists/playlist-4.png" alt="Outside Album Cover" />
+              <div class="music-info">
+                <h3>Cool Vibes</h3>
+                <p><a href="#">50 songs</a></p>
+                <p class="artist">Jambaze</p>
+              </div>
+            </div>
+
+            <!-- Music Item 5 -->
+            <div class="music-item">
+              <img src="playlists/playlist-5.png" alt="Timeless Album Cover" />
+              <div class="music-info">
+                <h3>Work Mode</h3>
+                <p><a href="#">50 songs</a></p>
+                <p class="artist">Jambaze</p>
+              </div>
+            </div>
+
+            <!-- Music Item 6 -->
+            <div class="music-item">
+              <img src="playlists/playlist-6.png" alt="DS4EVR Album Cover" />
+              <div class="music-info">
+                <h3>Afrobeats</h3>
+                <p><a href="#">50 songs</a></p>
+                <p class="artist">Jambaze</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Upload Button -->
+        <div class="upload-button-1">
+          <button class="btn btn-primary" id="uploadBtn">
+            View all playlists<i
+              class="fa fa-arrow-right"
+              aria-hidden="true"
+            ></i>
+          </button>
+          <input
+            type="file"
+            id="uploadFile"
+            name="uploadFile"
+            accept="audio/*"
+            hidden
+          />
+        </div>
+      </section>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- Left section: Logo, Slogan, and Social Icons -->
+      <div class="footer-left">
+        <div class="logo">
+          <img
+            src="logo-icon/logo.svg"
+            alt="JamBaze Logo"
+            width="30"
+            height="30"
+          />
+          <!-- Replace with actual logo -->
+          <span>JamBaze</span>
+        </div>
+        <p>Entertainment at your convenience</p>
+        <div class="social-icons">
+          <a href="#" aria-label="Twitter"><i class="fa-solid fa-x"></i></a>
+          <a href="#" aria-label="Instagram"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="#" aria-label="Facebook"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="#" aria-label="YouTube"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </div>
+        <!-- Copyright Section: -->
+        <div class="footer-bottom">
+          Copyright © 2024 JamBaze. All Rights Reserved
+        </div>
+      </div>
+
+      <!--Information Links -->
+      <div class="footer-column">
+        <h3>Information</h3>
+        <a href="#">About us</a>
+        <a href="#">Advertise on JamBaze</a>
+        <a href="#">Upload Music/Video</a>
+        <a href="#">Submit Posts</a>
+        <a href="#" class="contact-link">CONTACT US</a>
+      </div>
+
+      <!--Helpful Links -->
+      <div class="footer-column">
+        <h3>Helpful Links</h3>
+        <a href="#">JamBaze Music Promo Packages</a>
+        <a href="#">JamBaze TV</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#" class="contact-link">CONTACT US</a>
+      </div>
+    </footer>
+  </body>
+</html>
