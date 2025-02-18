@@ -1,0 +1,115 @@
+
+/* Hero section */
+/* left section */
+
+/* Container for the entire section */
+main {
+  padding: px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 40px;
+  margin-top: 60px;
+  font-size: 55px;
+  color: black;
+}
+
+.content {
+  display: flex;
+  max-width: px;
+  width: 90%;
+  gap: 20px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/* Left section for main article */
+.main-article {
+  flex: 1;
+  position: relative;
+}
+
+.main-article img {
+  width: 100%;
+  height: 100%;
+  min-width: 600px;
+  border-radius: px;
+  padding-left: px;
+}
+
+.main-article .overlay {
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  right: 0;
+  padding: px;
+  background: #000000b3;
+  color: #ffffff;
+  border-radius: px px;
+}
+
+.main-article .overlay .tag {
+  background-color: #f75a1a;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 18px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.main-article .overlay h2 {
+  font-size: 1.5em;
+  margin: 10px;
+}
+
+
+/* Right section for list of smaller articles */
+.side-articles {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 10px;
+}
+
+.side-article {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid rgb(221, 221, 221);
+  padding-bottom: 10px;
+}
+
+.side-article img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.side-article .info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.side-article .info h3 {
+  font-size: 0.9em;
+  color: rgb(51, 51, 51);
+}
+
+.side-article .info .time {
+  font-size: 0.8em;
+  color: #666;
+}
+
+.side-article .info .category {
+  font-size: 0.75em;
+  color: #f75a1a;
+  background-color: #fff0e6;
+  padding: 3px 5px;
+  border-radius: 3px;
+  display: inline-block;
+}
