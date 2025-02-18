@@ -1,0 +1,103 @@
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 80px;
+  background-color: rgb(17, 17, 17);
+  color: rgb(238, 238, 238);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+/* Logo section */
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgb(238, 238, 238);
+}
+
+.navbar .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar .logo {
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+/* Navbar menu*/
+.navbar .menu {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center;
+  float: right;
+  margin-left: 320px;
+  font-size: 12px;
+}
+
+.navbar .menu a {
+  color: rgb(238, 238, 238);
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+/* Dropdown caret for specific links */
+.navbar .menu a.dropdown::after {
+  content: "▼";
+  margin-left: 5px;
+  font-size: 0.7em;
+}
+
+/* Search icon styling */
+.navbar .search-icon {
+  font-size: 19px;
+  color: rgb(238, 238, 238);
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+/* Subscribe button styling 
+    .navbar .subscribe-button {
+      display: flex;
+      align-items: center;
+      padding: 8px 15px;
+      border: 1px solid #eee;
+      color: #eee;
+      background: transparent;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+      margin-right: 50px;
+    }
+
+    */
+
+.subscribe-button {
+  padding: 8px 15px;
+  border: 1px solid rgb(238, 238, 238);
+  color: rgb(238, 238, 238);
+  background: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Dropdown indicator for the subscribe button */
+.navbar .subscribe-button .dropdown-indicator {
+  margin-left: 5px;
+  font-size: 0.8em;
+}
+
+.navbar .subscribe-button {
+  margin-right: 55px;
+}
