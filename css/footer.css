@@ -1,0 +1,99 @@
+
+/* Footer styling */
+.footer {
+  width: 100%;
+  height: 250px;
+  background-color: #121212;
+  color: #eeeeee;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+
+  gap: 60px;
+  padding: 60px 100px;
+}
+
+/* Logo and slogan */
+.footer .footer-left {
+  flex: 4;
+  min-width: 200px;
+  font-size: 14px;
+}
+
+.footer .footer-left .logo {
+  font-size: 15px;
+  font-weight: small;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.footer .footer-left .logo span {
+  margin-left: 10px;
+  font-size: 15px;
+  color: #eeeeee;
+}
+
+.footer .footer-left p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Social media icons */
+.footer .social-icons {
+  display: flex;
+  gap: 2px;
+}
+
+.footer .social-icons a {
+  color: #eee;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+
+.footer .social-icons a:hover {
+  background-color: #444444;
+}
+
+/* Footer columns */
+.footer .footer-column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer .footer-column h3 {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #eeeeee;
+}
+
+.footer .footer-column a {
+  display: block;
+  color: #aaaaaa;
+  font-size: 0.9em;
+  text-decoration: none;
+  margin-bottom: 8px;
+  transition: color 0.3s;
+}
+
+.footer .footer-column a:hover {
+  color: #ffffff;
+}
+
+.footer .footer-column a.contact-link {
+  color: #f44c1c;
+  font-weight: bold;
+}
+
+/* Copyright section */
+.footer-bottom {
+  width: 100%;
+  padding-top: 30px;
+  font-size: 0.8em;
+  color: #aaaaaa;
+}

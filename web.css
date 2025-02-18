@@ -8,164 +8,9 @@
 
 
 
-/* Container for the trending music section */
-.trending-music {
-  max-width: 1200px;
-  width: 100%;
-}
 
-/* Title styling */
-.trending-music h2 {
-  font-size: 1.5em;
-  margin-bottom: 20px;
-  color: #333;
-}
 
-/* Music grid styling */
-.music-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 20px;
-}
 
-/* Individual music item styling */
-.music-item {
-  background-color: rgb(255, 255, 255);
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* Album cover styling */
-.music-item img {
-  width: 100%;
-  object-fit: cover;
-}
-
-/* Music details styling */
-.music-info {
-  padding: 10px;
-  text-align: center;
-  width: 100%;
-}
-
-.music-info h3 {
-  font-size: 1em;
-  color: rgb(51, 51, 51);
-  margin-bottom: 5px;
-}
-
-.music-info p {
-  font-size: 0.9em;
-  color: rgb(102, 102, 102);
-}
-
-.music-info .artist {
-  font-weight: bold;
-  color: rgb(0, 0, 0);
-}
-
-/* Footer styling */
-.footer {
-  width: 100%;
-  height: 250px;
-  background-color: rgb(18, 18, 18, 1);
-  color: rgb(238, 238, 238);
-
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-top: 50px;
-
-  gap: 60px;
-  padding: 60px 100px;
-}
-
-/* Logo and slogan */
-.footer .footer-left {
-  flex: 4;
-  min-width: 200px;
-  font-size: 14px;
-}
-
-.footer .footer-left .logo {
-  font-size: 15px;
-  font-weight: small;
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.footer .footer-left .logo span {
-  margin-left: 10px;
-  font-size: 15px;
-  color: rgb(238, 238, 238);
-}
-
-.footer .footer-left p {
-  font-size: 14px;
-  margin-bottom: 20px;
-}
-
-/* Social media icons */
-.footer .social-icons {
-  display: flex;
-  gap: 2px;
-}
-
-.footer .social-icons a {
-  color: #eee;
-  text-decoration: none;
-  font-size: 16px;
-  padding: 8px;
-  border-radius: 50%;
-  transition: background 0.3s;
-}
-
-.footer .social-icons a:hover {
-  background-color: rgb(68, 68, 68);
-}
-
-/* Footer columns */
-.footer .footer-column {
-  flex: 1;
-  min-width: 200px;
-}
-
-.footer .footer-column h3 {
-  font-size: 14px;
-  margin-bottom: 15px;
-  color: rgb(238, 238, 238);
-}
-
-.footer .footer-column a {
-  display: block;
-  color: rgb(170, 170, 170);
-  font-size: 0.9em;
-  text-decoration: none;
-  margin-bottom: 8px;
-  transition: color 0.3s;
-}
-
-.footer .footer-column a:hover {
-  color: rgb(255, 255, 255);
-}
-
-.footer .footer-column a.contact-link {
-  color: rgb(244, 76, 28, 1);
-  font-weight: bold;
-}
-
-/* Copyright section */
-.footer-bottom {
-  width: 100%;
-  padding-top: 30px;
-  font-size: 0.8em;
-  color: rgb(170, 170, 170);
-}
 
 /*tracklist styling*/
 
@@ -246,13 +91,7 @@
   background-color: rgb(230, 74, 25);
 }
 
-/*banner*/
-.banner {
-  margin: 0 auto;
-  width: 80%;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
+
 
 /*trending styles*/
 
